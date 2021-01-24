@@ -11,7 +11,7 @@ body {
     z-index: 99;
 }
 .jumbotron {
-    background-image: url("image/bg-2.jpg");
+    background-image: url("https://raw.githubusercontent.com/AliMustafa16/project-1/main/bg-2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 150%;
     display: flex;
