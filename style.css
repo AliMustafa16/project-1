@@ -1,0 +1,35 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.navbar {
+    z-index: 99;
+}
+.jumbotron {
+    background-image: url("image/bg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 100px 0px;
+    z-index: 1;
+}
+.jumbotron h1 {
+    font-size: 3em;
+    color: white;
+}
+.jumbotron h5 {
+    color: white;
+    font-weight: 500;
+}
+@media (max-width:768px){
+    .w-25 {
+        width: 100%;
+    }
+}
